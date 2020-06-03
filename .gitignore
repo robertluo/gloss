@@ -1,11 +1,3 @@
-pom.xml*
-*jar
-lib
-classes
-.DS_Store
-push
-autodoc
-.lein*
-target
-.nrepl*
-doc
+.cpcache/
+.nrepl-*
+target/
