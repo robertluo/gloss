@@ -40,6 +40,7 @@
 (defn reader? [x]
   (satisfies? Reader x))
 
+;;FIXME Not used in this namespace
 (def ^{:dynamic true} complete? false)
 (def ^{:dynamic true} trailing? false)
 
