@@ -8,8 +8,8 @@
 
 (ns ^{:skip-wiki true}
   gloss.data.bytes.core
-  (:use
-	potemkin)
+  (:require
+   [potemkin :refer [defprotocol+ deftype+]])
   (:import
     [java.nio
      Buffer

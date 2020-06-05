@@ -1,0 +1,2 @@
+{:lint-as {potemkin/defprotocol+ clojure.core/defprotocol
+           potemkin/deftype+     clojure.core/deftype}}
